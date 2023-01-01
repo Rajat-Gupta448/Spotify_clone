@@ -132,27 +132,27 @@ nav li a:hover {
 
 
 /* page-4 starts  */
-#pg-4{
+#pg-4 {
     display: flex;
-    margin: 50px 0;
+    padding: 50px 0;
     justify-content: center;
     /* align-items: center; */
 }
 
-.dropbox{
+.dropbox {
     width: 100vh;
 }
 
-.dropbtn p{
+.dropbtn p {
     color: black;
 }
 
-.dropbtn i{
+.dropbtn i {
     text-align: right;
     color: black;
 }
 
-.dropbtn{
+.dropbtn {
     width: 100%;
     display: block;
     text-align: left;
@@ -163,7 +163,98 @@ nav li a:hover {
     font-size: 30px;
 }
 
-.dropbtn:last-child{
+.dropbtn:last-child {
     border: none;
 }
+
 /* page-4 ends  */
+
+/* page-5 starts  */
+#pg-5 {
+    background-color: #ff0a54;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#pg-5 h2 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+#pg-5 button {
+    font-size: 25px;
+    border: none;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+#pg-5 button:hover {
+    border-radius: 0;
+    background-color: black;
+    color: white;
+}
+
+/* page-5 ends  */
+
+/* footer starts  */
+#pg-6 {
+    background-color: black;
+    padding: 30px;
+}
+
+#pg-6 .footer-head {
+    color: white;
+    font-size: 40px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+#pg-6 .footer-head h4 {
+    margin-left: 10px;
+    padding-top: 8px;
+}
+
+#pg-6 h4 a {
+    text-decoration: none;
+    color: white;
+}
+
+#pg-6 h4 a:hover {
+    color: #ff0a54;
+}
+
+.pg6-content {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.pg6-content h5 {
+    color: white;
+    width: 10vw;
+    text-align: center;
+    font-size: 15px;
+}
+
+.col a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.col a:hover {
+    color: #ff0a54;
+}
+
+.col i {
+    color: white;
+    margin-right: 5px;
+}
+
+.col i:hover {
+    color: #ff0a54;
+}
+
+/* fotter ends  */
